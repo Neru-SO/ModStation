@@ -61,4 +61,7 @@ dependencies {
 
 ## License
 
-MIT
+MIT — see [LICENSE](LICENSE).
+
+Original work Copyright (c) 2018-2020 Prospector.
+Modifications Copyright (c) 2026 Neru Productions.

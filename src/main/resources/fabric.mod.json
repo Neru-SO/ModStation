@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "modmenu",
+  "name": "ModStation",
+  "version": "$version",
+  "environment": "client",
+  "license": "MIT",
+  "icon": "assets/modmenu/icon.png",
+  "entrypoints": {
+    "client": [
+      "com.terraformersmc.modmenu.ModMenu"
+    ],
+    "modmenu": [
+      "com.terraformersmc.modmenu.ModMenuModMenuCompat"
+    ]
+  },
+  "contact": {
+    "homepage": "https://modrinth.com/mod/modstation",
+    "sources": "https://github.com/Neru-SO/ModStation",
+    "issues": "https://github.com/Neru-SO/ModStation/issues"
+  },
+  "depends": {
+    "fabric-resource-loader-v1": "*",
+    "fabric-screen-api-v1": "*",
+    "fabric-key-binding-api-v1": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "fabricloader": ">=0.17.2",
+    "minecraft": ">=1.21.11 <26"
+  },
+  "authors": [
+    "Neru Productions"
+  ],
+  "description": "A Modified Version Of ModMenu With A Better Looking",
+  "mixins": [
+    "mixins.modmenu.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/jEGF5fb"
+      }
+    }
+  }
+}
